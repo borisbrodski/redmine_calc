@@ -1,0 +1,22 @@
+<table>
+  <tbody>
+    <tr>
+      <th>Prefix:</th>
+      <td>
+        <input type="text" id="prefix" 
+                           value="<%= settings['prefix'] %>" 
+                           name="settings[prefix]" >
+      </td>
+    </tr>
+    <tr><td></td><td>Regex, that start of a text area matched, that would be be interpreted by RedmineCalc-plugin. Default: <b>{c:</b></td></tr>
+    <tr>
+      <th>Postfix:</th>
+      <td>
+        <input type="text" id="postfix" 
+                           value="<%= settings['postfix'] %>" 
+                           name="settings[postfix]" >
+      </td>
+    </tr>
+    <tr><td></td><td>Regex, that end of a text area matched, that would be interpreted by RedmineCalc-plugin. Default: <b>}</b></td></tr>
+  </tbody>
+</table>
